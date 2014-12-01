@@ -1,0 +1,25 @@
+.msbd-admin-page h2 img {
+    position: relative;
+    top: 8px;
+}
+
+.tabs-container{overflow:hidden}
+.tabs-container .tab{float:left}
+.tabs-container .tab a{display:block}
+.tabs-container .tab a{background:#fff;color:#000}
+.tabs-container .tab a:hover{background:#313182;color:#fff}
+.tabs-container .tab.active a{background:#0074A2;color:#fff;font-weight:900}
+.tabs-container .tab a{padding:10px 15px}
+.tabs-container .tab a{text-decoration:none}
+
+.msrp_shortcode_container{color:#000000;padding:20px}
+.msrp_shortcode_name{font-weight:900;font-size:130%;padding-bottom:2px}
+.msrp_shortcode_description{margin-left:2%}
+.msrp_shortcode_option_container{margin-left:3%;margin-top:5px}
+.msrp_shortcode_option_name{font-size:110%;font-style:italic;font-weight:600}
+.msrp_shortcode_option_text{margin-left:2%}
+
+.msrp_large_input {
+    width: 675px;
+    max-width: 100%;
+}
