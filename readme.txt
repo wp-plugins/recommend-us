@@ -1,8 +1,8 @@
 === Recommend Us ===
 Author: Shah Alom
-Author URI: https://www.microsolutionsbd.com/
+Author URI: http://www.microsolutionsbd.com/
 Contributors: shahalom
-Donate link: https://shahalom.microsolutionsbd.com/
+Donate link: http://shahalom.microsolutionsbd.com/
 Tags: recommend us, recommendations, testimonials, testimonial, why us, clients talk for us, client rating, ratings, google, seo, shortcode, plugin
 Requires at least: 3.0
 Tested up to: 4.0.1
