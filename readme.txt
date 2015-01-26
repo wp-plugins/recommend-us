@@ -1,5 +1,5 @@
 === Recommend Us ===
-Contributors: shahalom, microsolutionsbd
+Contributors: shahalom, microsolutions
 Donate Link: http://microsolutionsbd.com/
 Tags: recommend us, recommendations, testimonials, testimonial, why us, clients talk for us, client rating, ratings, google, seo, shortcode, plugin
 Requires at least: 3.6
