@@ -1,0 +1,174 @@
+
+/*COMMON STYLES*/
+.ms_rcmnd_form .clearfix:before,
+.ms_rcmnd_form .clearfix:after,
+.ms_rcmnd_form .form_row:before,
+.ms_rcmnd_form .form_row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+}
+.ms_rcmnd_form .clearfix:after,
+.ms_rcmnd_form .form_row:after {
+    clear: both;
+}
+.ms_rcmnd_form .clearfix,
+.ms_rcmnd_form .form_row {
+    zoom: 1;
+}
+
+.msrp_title {
+    font-size: 12px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+.msrp_stars {
+    margin-bottom:12px;
+}
+.msrp_recommendation_text {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.msrp_recommendation_name {
+    font-weight: bold;
+}
+.msrp_recommendation_date {
+    font-size: 10px;
+}
+.ms_rcmnd_form .form_table .msr_form_row {vertical-align:top}
+.label_star, .stars {
+    color: #ffaf00;
+}
+.black_stars {
+    color: #aaa;
+}
+
+.recommendation_group .wrap_recommendation {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.credit-line {
+    width: 100%;
+    text-align: left;
+    font-size: 10px;
+}
+
+/*GRID*/
+.ms_rcmnd_form .form_row {
+    margin: 0 0 10px;
+}
+.ms_rcmnd_form .form_row.tcenter {
+    text-align:center;
+}
+
+.ms_rcmnd_form .form_row .grid_6 {
+    margin: 0;
+    float:left;
+    width: 48%;
+}
+.ms_rcmnd_form .form_row .grid_6:nth-child(2) {
+    float:right;
+}
+
+/*FORM*/
+.ms_rcmnd_form input[type=text],
+.ms_rcmnd_form input[type=email] {
+    display: block;
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 0 10px;
+    line-height: 24px;
+    height: 34px;
+    background: #F7F7F7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.ms_rcmnd_form .textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 16px 10px;
+    background: #F7F7F7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.ms_rcmnd_form .btn-black {
+    width: auto;
+    float: right;
+    padding: 8px 10px;
+    display:inline-block;
+    cursor:pointer;
+    position:relative;
+    background:#191919;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color:#fff;
+    text-shadow:0 -1px 0 rgba(0,0,0,0.2);
+    border:1px solid rgba(0,0,0,0.1);
+    background-image: linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -moz-linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -ms-linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgba(0,0,0,0.08)),color-stop(0.5, rgba(128,128,128,0.08)),color-stop(1, rgba(255,255,255,0.08)));
+    -moz-box-shadow:inset 0 0 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow:inset 0 0 1px rgba(0,0,0,0.1);
+    box-shadow:inset 0 0 1px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.ms_rcmnd_form .btn-black:hover {
+    background:#333;
+    color: #ddd;
+}
+
+/*PAGING*/
+.msrp-paging {
+    text-align:center;
+    padding:15px;
+}
+.msrp-paging a,
+.msrp-paging span.current {
+    background: none repeat scroll 0 0 #555;
+    border-radius: 4px;
+    color: #ddd;
+    display: inline-block;
+    font-family: lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 17px;
+    margin: 2px;
+    
+    padding: 6px 9px;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+.msrp-paging a:hover {
+    background: none repeat scroll 0 0 #333;
+    color: #efefef;
+}
+.msrp-paging span.current {
+    background: none repeat scroll 0 0 #333;
+    color: #efefef;
+}
