@@ -30,6 +30,7 @@ class MSBDRecommendUsAdminHelper {
                     <img src="<?php echo MSBD_RCMND_PLGN_URL."images/msbd_logo.png"; ?>" />
                 </a>
             </div>
+            <div class="clear"></div>
             
             <div class="msbd-social-media-links-container three-fourths">
                 <div class="msbd-social-media-link msbd-facebook-link">
@@ -51,7 +52,7 @@ class MSBDRecommendUsAdminHelper {
                     </div>
                 </div>
             </div>
-
+            <div class="clear"></div>
         <?php
     }
 

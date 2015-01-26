@@ -1,3 +1,20 @@
+.msbd-rcmnd-admin-page .content-container:before, 
+.msbd-rcmnd-admin-page .sidebar-container:after {
+    box-sizing: border-box;
+}
+
+.msbd-rcmnd-admin-page .content-container {
+    float: left;
+    overflow: hidden;
+    padding-right: 2%;
+    width: 68%;
+}
+.msbd-rcmnd-admin-page .sidebar-container {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+
 .msbd-admin-page h2 img {
     position: relative;
     top: 8px;
@@ -19,7 +36,3 @@
 .msrp_shortcode_option_name{font-size:110%;font-style:italic;font-weight:600}
 .msrp_shortcode_option_text{margin-left:2%}
 
-.msrp_large_input {
-    width: 675px;
-    max-width: 100%;
-}

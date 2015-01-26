@@ -36,7 +36,7 @@ class RecommendUsAdmin {
             'msrp_settings_main',
             array(&$this, 'render_settings_main_page'),
             MSBD_RCMND_PLGN_URL.'images/msbd_favicon_16.png',
-            '25.11'
+            '89.91'
         );
         
         add_submenu_page(
@@ -155,12 +155,15 @@ class RecommendUsAdmin {
             MSBDRecommendUsAdminHelper::render_postbox_close();
         }
         
+        //echo '<div class="clear"></div>';
         MSBDRecommendUsAdminHelper::render_container_close();
-        MSBDRecommendUsAdminHelper::render_container_open('sidebar-container');
         
+        
+        MSBDRecommendUsAdminHelper::render_container_open('sidebar-container');        
         MSBDRecommendUsAdminHelper::render_sidebar();
         MSBDRecommendUsAdminHelper::render_container_close();
         echo '<div class="clear"></div>';
+        
     }
 
 
@@ -338,7 +341,7 @@ class RecommendUsAdmin {
         if (!current_user_can('manage_options')) {
             wp_die( __('You do not have sufficient permissions to access this page.') );
         }
-        $view = new RRAdminAddEdit($this->parent);
+        $view = new MsbdRcmndAdminAddEdit($this->parent);
     }
 
     function get_option($opt_name = '') {

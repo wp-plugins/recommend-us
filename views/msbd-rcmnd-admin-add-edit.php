@@ -1,5 +1,5 @@
 <?php
-class RRAdminAddEdit {
+class MsbdRcmndAdminAddEdit {
 
     var $core;
 

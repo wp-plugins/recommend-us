@@ -462,7 +462,7 @@ if (!class_exists('MSBDOptions')) {
 }
 require_once('lib/recommend-us-admin.php');
 require_once('lib/recommend-us-db.php');
-require_once("views/admin-add-edit-view.php");
+require_once("views/msbd-rcmnd-admin-add-edit.php");
 
 global $recommendUs;
 $recommendUs = new RecommendUs();

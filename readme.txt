@@ -1,14 +1,14 @@
 === Recommend Us ===
-Author: Shah Alom
-Author URI: http://www.microsolutionsbd.com/
-Contributors: shahalom
-Donate link: http://shahalom.microsolutionsbd.com/
+Contributors: shahalom, microsolutionsbd
+Donate Link: http://microsolutionsbd.com/
 Tags: recommend us, recommendations, testimonials, testimonial, why us, clients talk for us, client rating, ratings, google, seo, shortcode, plugin
-Requires at least: 3.0
+Requires at least: 3.6
 Tested up to: 4.0.1
-Stable tag: 1.0.0
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Embed visitor or client recommendation or reviews about your startup or website to your website.
 
 
 == Description ==
@@ -29,6 +29,13 @@ Recommend Us empowers you to easily capture client recommendations for your busi
 4. Admin form to add new recommendation or edit submitted one.
 5. Showing recommendation with pagination and a simple credit to us.
 
+
+== Changelog ==
+
+= 1.0.1 =
+* Class name conflict error fix
+* Minor style and js fix
+* Contributor added
 
 = 1.0.0 =
 Initial release
