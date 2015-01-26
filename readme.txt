@@ -31,11 +31,19 @@ Recommend Us empowers you to easily capture client recommendations for your busi
 
 
 == Changelog ==
-
 = 1.0.1 =
 * Class name conflict error fix
 * Minor style and js fix
 * Contributor added
+
+= 1.0.0 =
+* Initial release
+
+
+== Upgrade Notice ==
+
+= 1.0.1 =
+This version is essential, as it fixes a bug that may conflict with other plugins file.
 
 = 1.0.0 =
 Initial release
