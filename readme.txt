@@ -4,7 +4,7 @@ Donate Link: http://microsolutionsbd.com/
 Tags: recommend us, recommendations, testimonials, testimonial, why us, clients talk for us, client rating, ratings, google, seo, shortcode, plugin
 Requires at least: 3.6
 Tested up to: 4.0.1
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Recommend Us empowers you to easily capture client recommendations for your busi
 
 
 == Changelog ==
+= 1.1.0 =
+Makes the version stable!
+
 = 1.0.1 =
 * Class name conflict error fix
 * Minor style and js fix
@@ -41,6 +44,9 @@ Recommend Us empowers you to easily capture client recommendations for your busi
 
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+Makes the version stable!
 
 = 1.0.1 =
 This version is essential, as it fixes a bug that may conflict with other plugins file.
