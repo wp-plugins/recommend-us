@@ -3,7 +3,7 @@
 Plugin Name: Recommend Us
 Plugin URI: http://microsolutionsbd.com/
 Description: Recommend Us empowers you to easily capture client recommendations for your business, website and display them on your Wordpress page or post.
-Version: 1.0.0
+Version: 2.0.0
 Author: Shah Alom
 Author URI: http://shahalom.microsolutionsbd.com/
 Text Domain: recommend-us
